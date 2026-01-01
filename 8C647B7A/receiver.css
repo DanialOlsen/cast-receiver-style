@@ -11,6 +11,7 @@
 
 .progressBar {
   background-color: #1e90ff;
+  height: 4px;
 }
 
 .watermark {
