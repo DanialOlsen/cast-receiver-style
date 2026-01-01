@@ -1,0 +1,17 @@
+.background {
+  background-color: #121212;
+}
+
+.logo {
+  background-image: url("background.png");
+  background-size: contain;
+}
+
+.progressBar {
+  background-color: #1e90ff;
+}
+
+.watermark {
+  background-image: url("watermark.png");
+  background-size: 48px 48px;
+}
