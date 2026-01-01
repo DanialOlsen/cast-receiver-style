@@ -3,7 +3,9 @@
 }
 
 .logo {
-  background-image: url("background.png");
+  background-image: url("logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: contain;
 }
 
@@ -13,5 +15,6 @@
 
 .watermark {
   background-image: url("watermark.png");
+  background-repeat: no-repeat;
   background-size: 48px 48px;
 }
