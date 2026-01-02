@@ -1,10 +1,10 @@
 .background {
-  background: #121212;
-  background: linear-gradient(90deg, rgba(18, 18, 18, 1) 0%, rgba(30, 144, 255, 1) 100%);
+  background: #1E90FF;
+  background: radial-gradient(circle, rgba(30, 144, 255, 1) 0%, rgba(18, 18, 18, 1) 100%);
 }
 
 .logo {
-  background-image: url("watermark.png");
+  background-image: url("splash.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain; 
@@ -16,7 +16,7 @@
 }
 
 .splash {
-  background-image: url(splash.png);
+  background-image: url(Feature_graphic.png);
 }
 
 .watermark {
