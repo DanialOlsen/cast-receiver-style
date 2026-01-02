@@ -1,14 +1,14 @@
 .background {
   background: url(waveform5.jpg);
-  background-size: auto;
+  background-size: cover;
   /* background-color: #121212; */
 }
 
 .logo {
   background-image: url("Feature_graphic.png");
- /* background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-position: center;
-  background-size: contain; */
+  background-size: contain; 
 }
 
 .progressBar {
