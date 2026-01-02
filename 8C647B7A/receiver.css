@@ -15,10 +15,11 @@
 
 }
 
+/*
 .splash {
   background-image: url(Feature_graphic.png);
 }
-
+*/
 .watermark {
   background-image: url("watermark.png");
   /* background-repeat: no-repeat; */
