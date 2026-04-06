@@ -8,7 +8,12 @@
 /* Idle / launch / general background */
 .background {
   background-color: #141414;
-  background-image: radial-gradient(circle at center, #c78c2a 0%, #141414 72%);
+  background-image: linear-gradient(90deg,
+      #141414 0%,
+      #4e3813 18%,
+      #b8842a 50%,
+      #4e3813 82%,
+      #141414 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
