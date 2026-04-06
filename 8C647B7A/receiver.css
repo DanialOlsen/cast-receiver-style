@@ -1,27 +1,40 @@
+/* KVF Styled Media Receiver skin
+   Asset files expected in the same directory as this CSS:
+   - KVF_live_logo_transparent.png
+   - feature graphic.png   (optional but recommended)
+   - watermark.png         (optional)
+*/
+
+/* Idle / launch / general background */
 .background {
-  background: #ff8400;
-  background: radial-gradient(circle, rgb(255, 183, 27) 0%, rgb(255, 255, 255) 100%);
+  background-color: #141414;
+  background-image: radial-gradient(circle at center, #c78c2a 0%, #141414 72%);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
+/* Launch logo and idle fallback logo */
 .logo {
   background-image: url("KVF_live_logo_transparent.png");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain; 
+  background-position: center center;
+  background-size: 36% auto;
 }
 
+/* Playback progress bar accent */
 .progressBar {
   background-color: #1e90ff;
-
 }
 
-/*
+/* Idle splash screen
+   If present, this is shown in idle state instead of .logo */
 .splash {
-  background-image: url(Feature_graphic.png);
+  background-image:
+    radial-gradient(circle at center, rgba(199, 140, 42, 0.88) 0%, rgba(20, 20, 20, 0.96) 72%),
+    url("feature graphic.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center center, center center;
+  background-size: cover, contain;
 }
-*/
-.watermark {
-  background-image: url("watermark.png");
-  /* background-repeat: no-repeat; */
-  background-size: 64px 64px;
-}
+
